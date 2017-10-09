@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915846777231",
+    "firebase_url": "https://nationalambulance-bf97b.firebaseio.com",
+    "project_id": "nationalambulance-bf97b",
+    "storage_bucket": "nationalambulance-bf97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915846777231:android:8f4b25f9bbff969e",
+        "android_client_info": {
+          "package_name": "sa.sarah.nationalambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915846777231-s13m6ukal3vod0ftgomtheqn4rdtqqmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sa.sarah.nationalambulance",
+            "certificate_hash": "1f367620263b4cd7f935aaf8fff8a6fbd6bd48a7"
+          }
+        },
+        {
+          "client_id": "915846777231-e9k9j442ttnnqvj5sql23s50h6cvp4ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvfLgkbBwu2JP9PfoQL1k5HPuZOjjlMIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915846777231-e9k9j442ttnnqvj5sql23s50h6cvp4ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
