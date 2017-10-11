@@ -25,30 +25,28 @@
         android:layout_centerHorizontal="true"
         tools:ignore="SpUsage,UnusedAttribute" />
 
-    <ListView
-        android:id="@+id/user_requests_list_view"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignBottom="@+id/open_map_btn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="16dp"
         android:textColor="@color/colorAccent"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:text="@string/my_requests"
+        android:text="@string/my_request"
+        tools:ignore="SpUsage"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:id="@+id/request_fragment_cont"
+        android:name="sa.sarah.nationalambulance.NoRequestFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        tools:ignore="SpUsage" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

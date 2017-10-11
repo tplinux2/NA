@@ -10,7 +10,10 @@
     <string name="continue_str">Continue</string>
     <string name="register">Register</string>
     <string name="request">Request</string>
-    <string name="my_requests">My Request</string>
+    <string name="my_request">My Request</string>
     <string name="title_activity_user_map">Map</string>
     <string name="open_map">Open Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">You have no request</string>
 </resources>
