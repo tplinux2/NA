@@ -42,7 +42,8 @@
         <activity
             android:name=".UserMapActivity"
             android:label="@string/title_activity_user_map" />
-        <activity android:name=".UserMainActivity"></activity>
+        <activity android:name=".UserMainActivity" />
+        <activity android:name=".UserMakeRequest"></activity>
     </application>
 
 </manifest>

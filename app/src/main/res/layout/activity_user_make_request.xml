@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sa.sarah.nationalambulance.UserMakeRequest">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/lvl" />
+
+    <Button
+        android:id="@+id/high_btn"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/high"
+        android:layout_marginTop="97dp"
+        android:text="@string/high"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/low_btn"
+        android:layout_alignStart="@+id/low_btn" />
+
+    <Button
+        android:id="@+id/normal_btn"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/high_btn"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/normal"
+        android:layout_centerHorizontal="true"
+        android:text="@string/normal" />
+
+    <Button
+        android:id="@+id/low_btn"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normal_btn"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/low"
+        android:layout_centerHorizontal="true"
+        android:text="@string/low" />
+
+</RelativeLayout>

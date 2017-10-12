@@ -13,6 +13,10 @@
     <string name="my_request">My Request</string>
     <string name="title_activity_user_map">Map</string>
     <string name="open_map">Open Map</string>
+    <string name="lvl">Level</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="low">Low</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">You have no request</string>
